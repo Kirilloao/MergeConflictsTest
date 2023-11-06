@@ -14,8 +14,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
 
         view.backgroundColor = .white
         
@@ -27,14 +25,9 @@ class ViewController: UIViewController {
         NSLayoutConstraint.activate([
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-
-
             button.widthAnchor.constraint(equalToConstant: 50),
             button.heightAnchor.constraint(equalToConstant: 40)
-
-
-
-        ])
+            ])
     }
 }
 
