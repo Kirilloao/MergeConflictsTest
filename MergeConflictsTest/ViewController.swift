@@ -15,12 +15,12 @@ class ViewController: UIViewController {
 
     }
     
-    func printNumber() {
-        print(25)
+    func printTwo() {
+        print(2)
     }
     
-    func printAnotherNumber() {
-        print(89)
+    func printThree() {
+        print(3)
     }
 }
 
