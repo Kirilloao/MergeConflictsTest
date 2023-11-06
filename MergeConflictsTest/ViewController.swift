@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
     private let button = UIButton()
 
     override func viewDidLoad() {
