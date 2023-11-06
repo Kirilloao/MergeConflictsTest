@@ -16,19 +16,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 
-        view.backgroundColor = .systemPink
+        view.backgroundColor = .white
         
         view.addSubview(button)
         button.setTitle("BUTTON", for: .normal)
-        button.backgroundColor = .gray
+        button.backgroundColor = .red
       
         button.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
 
-            button.widthAnchor.constraint(equalToConstant: 100),
-            button.heightAnchor.constraint(equalToConstant: 100)
+            button.widthAnchor.constraint(equalToConstant: 154),
+            button.heightAnchor.constraint(equalToConstant: 134)
 
         ])
     }
